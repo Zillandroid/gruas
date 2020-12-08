@@ -1,0 +1,155 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.sub_wrap{
+    padding: 5em;
+}
+.barra {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    font-weight: bolder;
+    color: white;
+    background-color: #FFAE19;
+    padding: 0.75em;
+  }
+  h1{
+      font-size: large;
+      font-weight: bold;
+  }
+  h2{
+    font-size: medium;
+    font-weight: lighter; 
+  }
+.titulo{
+    text-align: center;
+}
+.fotorama{
+  padding-left: 4em;
+}
+.sub_boton1{
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    background: rgb(149, 207, 2);
+background: radial-gradient(circle, rgb(143, 199, 0) 0%, rgb(105, 226, 0) 46%);
+border-radius: 1em;
+padding: 1em;
+text-shadow: 2px 2px #000}
+.subsub1{
+   
+    text-align: center;
+    font-size: small;
+}
+.subsub{
+    color:green;
+    text-align: center;
+    font-size: x-small;
+}
+.sub_boton2{
+    text-align: center;
+    font-size: 1em;
+    background: rgb(0,255,244);
+background: radial-gradient(circle, rgba(0,255,244,1) 0%, rgba(0,181,255,1) 46%);
+border-radius: 1em;
+padding: 1em;
+text-shadow: 2px 2px #000}
+
+.botones{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 0.2em;
+    font-weight: bolder;
+    color: white;
+   
+    padding: 0.2em;
+}
+
+.sub_barra_res_1{
+    text-align: right;
+    font-size: 1.5em;
+
+}
+
+.sub_barra_res_0{font-family: 'Raleway', sans-serif;
+font-size: 1.05em; text-align: center;}  
+
+.barrares{
+    display: NONE;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: bolder;
+    color: white;
+    background-color: #FFAE19;
+    padding: 0.75em;
+}
+.servicios{
+    text-align: center;
+    grid-gap: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    padding: 0.75em;
+}
+.fa-hourglass-half{
+    color:rgb(130, 192, 37);
+    text-shadow: 2px 2px #fff;
+    font-size: 2.5em;
+}
+
+.fa-car-battery{
+    color:rgb(218, 40, 40);
+    text-shadow: 2px 2px #fff;
+    font-size: 2.5em;
+}
+
+.fa-gas-pump{
+    color:rgb(236, 232, 17);
+    text-shadow: 2px 2px #fff;
+    font-size: 2.5em;
+}
+.fa-tools{
+    color:rgb(100, 100, 100);
+    text-shadow: 2px 2px #fff;
+    font-size: 2.5em;
+}
+
+.ser1_{
+    font-size: normal;
+}
+.footer{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr ;
+    font-weight: bolder;
+    color: white;
+    background-color: #6b6b6b;
+    padding: 1em;
+    
+}
+.logo_final{
+    text-align: center;
+    width: 5em;
+    height: auto;
+}
+.foot1sub,.foot2sub,.foot3sub,.foot4sub{
+    font-weight: lighter;
+}
+@media only screen and (max-width: 600px) {
+.barra{display: none;}
+.barrares{display:grid;}
+.sub_wrap{
+    padding: 1em;
+}
+.footer{
+    text-align: center;
+}
+
+
+
+}
