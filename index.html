@@ -34,6 +34,21 @@
 </head>
 <body>
     <div class="wrap">
+        <div id="sub_ibar">
+            <div class="ibar_nav">
+                <div class="ibar_nav_item"><button class ="boton2" onclick="des()"><i class="far fa-times-circle"></i></button></div>
+                <div class="ibar_nav_item2"></div>
+                <br>
+            </div>
+                <div class="ibar_nav_drop">
+                    <div class="ibar_nav_drop_item"><a href="index.html">Sobre Nosotros</a></div>
+                    <div class="ibar_nav_drop_item"><a href="definicion.html"> Clientes </a></div>
+                    <div class="ibar_nav_drop_item"><a href="funcionamiento.html">Servicios</a></div>
+                    <div class="ibar_nav_drop_item"><a href="ventajas.html">FAQ(Preguntas frecuentes) </a></div>
+                     <div class="ibar_nav_drop_item"><a href="usuarios.html">Ayuda</a></div>
+                     <div class="ibar_nav_drop_item"><a href="usuarios.html">Contacto</a></div>
+                </div>
+        </div>
         <div class="barrares">
             <div class="sub_barra_res">
                 <img width="auto" height="40px" src="logo.svg" alt="logo grúas bechan, el mejor servicio de grúas en toda la región de valparaiso al mejor precio.">
@@ -41,15 +56,29 @@
             <div class="sub_barra_res_0">
                 GRÚAS BECHAN
             </div>
-            
             <div class="sub_barra_res_1">
-                <i class="fas fa-bars"></i>
+            <div class="ibar">
+                <button id="btn1"class ="boton1"  onclick="haz()"><i class="fas fa-bars"></i></button>
+                <script>
+    function haz() {
+    document.getElementById("sub_ibar").style.display = "block";
+    document.getElementById("foto2").style.visibility = "hidden";
+    
+    document.getElementById("btn1").style.visibility = "hidden";
+    }
+    function des() {
+        document.getElementById("btn1").style.visibility = "visible";
+        document.getElementById("foto2").style.visibility = "visible";
+    document.getElementById("sub_ibar").style.display = "none";
+    
+    }
+    </script>
             </div>
-           
+        </div>
         </div>
         <div class="barra">
             <div class="sub_barra">
-                Logo
+                <img width="auto" height="40px" src="logo.svg" alt="logo grúas bechan, el mejor servicio de grúas en toda la región de valparaiso al mejor precio.">
             </div>
             <div class="sub_barra">
                 Sobre nosotros
@@ -64,19 +93,32 @@
                 FAQ
             </div>
             <div class="sub_barra">
-                Cómo
+                Ayuda
             </div>
             <div class="sub_barra">
                 Contacto
             </div>
         </div>
+        
+       
         <div class="sub_wrap">
-        <div class="titulo">
+        <div id="titulo">
             <h1><font color="gray"> Grúas Bechan </font> </br> Servicio de grúas 24 horas en Viña del Mar y toda la quinta región</h1>
           
-                <div class="fotorama" data-autoplay="true" data-fit="cover" data-nav="thumbs" data-width="80%"
-                data-ratio="10/6"
-                >
+                <div id="foto"class="fotorama" data-autoplay="true" data-fit="cover" data-nav="thumbs"  data-width="100%"
+                data-ratio="900/250">
+                
+                    <img src="gruas_bechan_gruas_24_horas.jpg" alt="Grúa en servicio de cama hidrulica en Concon" data-caption="Rescate las 24 horas">
+                    <img src="gruas_bechan_quilpue.jpg" alt="Grúa operando las 24 horas en quilpué" data-caption="Grúa en quilpué">
+                    <img src="gruas_bechan_asistencia en ruta pana poir batería rescatado.jpg" alt="Viajes a todas horas, todos los días. Rescate quilpue" data-caption="Puente de baterías">
+                    <img src="gruas_bechan_rescates_a_bajo_precio_barato.jpg" alt="Rescate de camioneta hyundai por grúa con cama hidraulica, fue llevada al taller" data-caption="traslado al taller">
+                    <img src="gruas_bechan_rescate_viña_del_mar.jpg" alt="Rescate camión en quilpué por gruas bechan" data-caption="Viaje concon - valparaíso">
+                    <img src="gruas_bechan_valparaiso.jpg" alt="En toque de queda, rescate de valparaíso a quilpué, cambio de neumaticos" data-caption="Viaje a Quintero">
+                    <img src="gruas_bechan_viña_del_mar_24_7.jpg" alt="Rescate de vehiculo pesado en grúa de Bechan" data-caption="Viña del mar">
+                  </div>
+                  <div id="foto2"class="fotorama" data-autoplay="true" data-fit="cover" data-nav="thumbs"  data-width="80%"
+                data-ratio="800/600">
+                
                     <img src="gruas_bechan_gruas_24_horas.jpg" alt="Grúa en servicio de cama hidrulica en Concon" data-caption="Rescate las 24 horas">
                     <img src="gruas_bechan_quilpue.jpg" alt="Grúa operando las 24 horas en quilpué" data-caption="Grúa en quilpué">
                     <img src="gruas_bechan_asistencia en ruta pana poir batería rescatado.jpg" alt="Viajes a todas horas, todos los días. Rescate quilpue" data-caption="Puente de baterías">
