@@ -32,9 +32,22 @@ body{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
     font-weight: bolder;
-    color: white;
+  
+        color:white;
+    
     background-color: #FFAE19;
     padding: 0.75em;
+  }
+  .link_barra{
+    color: white;
+
+    text-decoration: none;
+  }
+  .sub_barra1{
+    
+  }
+  .link_barra_a{
+    color:black;
   }
   h1{
       font-size: large;
@@ -51,8 +64,25 @@ body{
   padding-left: 4em;
   
 }
+.pregunta{
+    padding: 0.5em;
+    background:gray;
+    color:white;
+    font-weight: bold;
+}
+.respuesta{
+    padding: 0.5em;
+    background:rgb(241, 241, 241);
+    color:black;
+   
+}
+.a{
+    text-decoration: none;
+    text-decoration-color: none;
+color: cornsilk;}
 .sub_boton1{
     
+
     text-align: center;
     font-size: 1em;
     color: #fff;
@@ -75,7 +105,7 @@ text-shadow: 2px 2px #000}
     text-align: center;
     font-size: 1em;
     background: rgb(0,255,244);
-background: radial-gradient(circle, rgba(0,255,244,1) 0%, rgba(0,181,255,1) 46%);
+background: radial-gradient(circle, rgb(0, 171, 187) 0%, rgba(0,181,255,1) 46%);
 border-radius: 1em;
 padding: 1em;
 text-shadow: 2px 2px #000}
@@ -90,7 +120,13 @@ text-shadow: 2px 2px #000}
    
     
 }
-
+.sub_barra{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
 .sub_barra_res_1{
     
    right: 0%;
@@ -159,6 +195,7 @@ font-size: 1.05em; text-align: center;}
     background-color: #6b6b6b;
     padding: 1em;
     
+    bottom:0;
 }
 .logo_final{
     text-align: center;
@@ -179,6 +216,56 @@ font-size: 1.05em; text-align: center;}
     padding-top:0;
     padding-left: 4em;
     padding-right: 4em;
+}
+.contenido{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr ;
+}
+.c1{
+    font-size: 1.2em;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+.resimg{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+.rs1{
+    padding: 1em;
+    background:rgb(54, 161, 233);
+    color: white;
+    font-size: 1.4em;
+    border-radius: 2em;
+}
+.rs2{
+    padding: 1em;
+    background:rgb(54, 233, 129);
+    color: white;
+    font-size: 1.4em;
+    border-radius: 2em;
+}
+.rs3{
+    padding: 1em;
+    background:rgb(238, 152, 94);
+    color: white;
+    font-size: 1.4em;
+    border-radius: 2em;
+}
+.rsig{
+    padding: 1em;
+    background:rgb(255, 164, 240);
+    color: white;
+    font-size: 1.4em;
+    border-radius: 2em;
+}
+.rsfb{
+    padding: 1em;
+    background:rgb(64, 43, 255);
+    color: white;
+    font-size: 1.4em;
+    border-radius: 2em;
 }
 @media only screen and (max-width: 600px) {
 .barra{display: none;}
@@ -235,6 +322,13 @@ font-size: 1.05em; text-align: center;}
 #foto2{
     display: block
 }
-
-
+.contenido{
+    display: block;
+ 
+}
+.c1{
+    font-size: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
 }
